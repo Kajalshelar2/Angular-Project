@@ -1,0 +1,18 @@
+{
+  "Business": [
+    {
+      "id": "101",
+      "name": "Suraj Rajendra Raskar",
+      "city": "Gulunche",
+      "type": "asdfd",
+      "email": "raskarsuraj984@gmail.com"
+    },
+    {
+      "id": "102",
+      "name": "Abhay Sarwade",
+      "city": "Katraj",
+      "type": "Transportation",
+      "email": "abhaysarwade@gmail.com"
+    }
+  ]
+}

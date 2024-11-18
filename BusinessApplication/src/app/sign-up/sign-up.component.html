@@ -1,0 +1,36 @@
+<h1>Registration Form</h1>
+
+<form #registerForm="ngForm" (ngSubmit)="register(registerForm)" action="">
+    <div class="form-group">
+        <label for="">ID:</label>
+        <input type="text" name="id" #id (ngModel)="id" class="form-control">
+    </div>
+    <br>
+    
+    <div class="form-group">
+        <label for="">Name:</label>
+        <input type="text" name="name" #name (ngModel)="name" class="form-control">
+    </div>
+    <br>
+    
+    <div class="form-group">
+        <label for="">City:</label>
+        <input type="text" name="city" #city (ngModel)="city" class="form-control">
+    </div>
+    <br>
+    
+    <div class="form-group">
+        <label for="">Type:</label>
+        <input type="text" name="type" #type (ngModel)="type" class="form-control">
+    </div>
+    <br>
+    
+    <div class="form-group">
+        <label for="">Email:</label>
+        <input type="email" name="email" #email (ngModel)="email" class="form-control">
+    </div>
+    <br>
+
+    <button class="btn btn-warning">Reset</button>&nbsp;&nbsp;&nbsp;
+    <button class="btn btn-success">Submit</button>
+</form>

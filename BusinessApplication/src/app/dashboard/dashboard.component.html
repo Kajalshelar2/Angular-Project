@@ -1,0 +1,26 @@
+<table class="table table-bordered table-hover text-center">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>City</th>
+            <th>Type</th>
+            <th>Email</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+       <tr *ngFor="let b of busArray">
+        <td>{{b.id}}</td>
+        <td>{{b.name}}</td>
+        <td>{{b.city}}</td>
+        <td>{{b.type}}</td>
+        <td>{{b.email}}</td>
+        <td>
+            <button (click)="delete(b.id)" class="btn btn-danger">Delete</button>&nbsp;&nbsp;&nbsp;
+            <button (click)="update(b.id)" class="btn btn-success">Update</button>
+        </td>
+       </tr>
+    </tbody>
+</table>
